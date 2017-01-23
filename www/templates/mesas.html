@@ -1,0 +1,10 @@
+<ion-view view-title="Mesas">
+	<ion-content>
+        <ion-list>
+		  <ion-item class="item-text-wrap item-icon-right" ng-repeat="post in posts" href="#/app/mesas/{{post.Tipo}}">
+		  	<h2>{{post.Nombre}}</h2>
+		    <i class="icon ion-ios-arrow-right"></i>
+			</ion-item>
+		 </ion-list>
+    </ion-content>
+</ion-view>
